@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Math Quiz Game</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<body>
+<center>
+    <h1 id="h"><u><u>The Math Quiz➕ ➗ ➖ ✖️!! </u></u></h1>
+    <img src="num.jpeg" id="numberImg">
+</center>
+<br>
+<br>
+    <div id="score_and_q_a">
+<div id="score_of_players">
+    <label id="player1_name">  </label> <span id="player1_score"></span>
+    <br>
+    <label id="player2_name"> </label> <span id="player2_score"></span>
+    </div>
+    <br>
+    <br>
+    <div id="Q_A_turn">
+    <label id="lQT"> </label> <span id="question_turn"></span>
+    <br>
+    <label id="lAT"></label> <span id="answer_turn"></span>
+</div>
+
+</div>
+<center>
+    
+        
+   
+        <div id="output" class="btn-warning">
+
+       
+        </div>
+
+        <div id="numDiv" class="btn-warning">
+            <h3>Enter two numbers</h3>
+            <br>
+            <h4 id="num1"><u>Number 1</u></h4>
+            <input type="number" id="inp_num_1" placeholder="Enter the first number">
+            <br>
+            <h4 id="num2"><u>Number 2</u></h4>
+            <input type="number" id="inp_num_2" placeholder="Enter the second number">
+            <br>
+            <button type="submit" id="sendBtn" class="btn btn-info" onclick="send()"> Send </button>
+
+        </div>
+</center>
+
+
+
+<script src="quiz_game.js"></script>
+</body>
+
+</html>

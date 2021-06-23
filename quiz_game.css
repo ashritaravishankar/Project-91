@@ -1,0 +1,160 @@
+body{
+
+background: linear-gradient( #00e5ff 10%,  #3ae248 80%);
+background-repeat:no-repeat;
+height:1300px;
+border-radius: 25px;
+border-width: 15px;
+border-color: black;
+border-style:double;
+}
+
+#check_btn{
+    background-color: yellow;
+color: rgb(231, 33, 33);
+font-weight: bold;
+border-bottom-left-radius: 25px;
+border-top-right-radius: 25px;
+border-color: black;
+border-width: 8px;
+border-style: double;
+
+}
+
+#check_btn:hover{
+    background-color: rgba(222, 115, 255, 0.986);
+    background: linear-gradient( yellow 10%,  #db76e9 80%);
+    color:black;
+}
+
+#output{
+    background-color: rgb(255, 186, 57);
+    color: black;
+    width: 600px;
+   
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-color: black;
+    border-width: 10px;
+    border-style:double;
+    
+}
+
+#num_ans_inp{
+    border-width: 5px;
+    border-left-color: rgb(115, 255, 72);
+    border-right-color: rgb(16, 120, 255);
+    border-bottom-color: blue;
+    border-top-color: rgb(9, 231, 46);
+    color: black;
+
+
+}
+
+#numDiv{
+    background-color:  rgb(217, 255, 0);
+    width:600px;
+    height:285px;
+    color: rgb(94, 8, 121);
+    border-top-left-radius: 500px;
+border-top-right-radius: 500px;
+border-bottom-right-radius: 500px;
+border-color:black;
+border-width:10px;
+border-style:double;
+}
+
+#inp_num_1{
+    width:200px;
+    border-radius: 200px;
+border-color:rgb(0, 110, 255) ;
+border-width: 5px;
+}
+#inp_num_2{
+    width:200px;
+    border-radius:200px;
+    border-color: rgb(173, 21, 233);
+    border-width:5px;
+
+}
+
+h3{
+    color:black;
+}
+
+h4{
+    color: white;
+}
+
+#num1{
+color:rgb(255, 146, 22);
+}
+
+#num2{
+    color:rgb(26, 197, 26);
+}
+
+
+#sendBtn{
+    margin-top: 7px;
+    border-color: red;
+    border-style: solid;
+    border-width:4px;
+    font-weight: 700;
+}
+
+#sendBtn:hover{
+ background: linear-gradient(rgb(0, 255, 255) 10% ,  yellow 80%);
+ color:red;
+ font-weight:bold;
+ border-color: black;
+ border-radius: 10px;
+ border-width: 7px;
+ border-style:groove ;
+}
+
+
+#score_of_players{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color:lightyellow;
+    width:200px;
+    
+}
+
+#Q_A_turn{
+margin-left:10px;
+font-size:20px;
+background-color: lightyellow;
+width:200px;
+}
+
+#answer_input{
+    border-color: black;
+    border-style: groove;
+}
+#numberImg{
+    margin-left: 1000px;
+    margin-top: 50px;
+    border-bottom-width:10px;
+    border-top-width:40px;
+        transform: rotate(330deg);
+}
+
+#score_and_q_a{
+   border-width:8px;
+   border-color:purple;
+   border-style:dotted;
+   width:230px;
+   background-color: lightcoral;
+}
+
+
+#question{
+    color:black;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight:bold;
+    
+}

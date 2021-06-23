@@ -1,0 +1,116 @@
+body {
+background-color: wheat;
+border-radius: 15px;
+border-color: black;
+border-style: groove;
+border-width:5px;
+}
+
+html{
+    border-radius: 10px;
+    border-color: black;
+    border-style:dotted;
+    border-width:5px;
+    background-color: #76ddf5;
+}
+
+span{
+    float:right;
+}
+
+#heading{
+    text-align: center;
+    background: linear-gradient( #7ef542 5%, #d066ed 80%);
+    background-repeat:no-repeat;
+    width: 450px;
+    height: 70px;
+  margin-left: 500px;
+  border-radius: 20px;
+border-color:purple;
+border-style:double;
+border-width:15px;
+
+
+}
+mark{
+    background-color: yellow;
+    color:black;
+    border-radius: 5px;
+border-color:brown;
+border-style:dotted;
+
+
+}
+
+#loginImg{
+    width:560px;
+    height:500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    margin-top: 100px;
+    margin-left: 165px;
+}
+#players_un{
+    background: linear-gradient( #d83ef7 5%, #fff642 5%,  #2ded26 80%);
+    margin-top: -500px;
+    margin-right: -108px;
+    padding-right: 500px;
+    padding-bottom: 145px;
+    padding-top: 150px;
+    border-radius: 10px;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    margin-left: 750px;
+
+   
+}
+
+
+
+
+#player1_name_input{
+    height:40px;
+    width: 250px;
+    border-color: black;
+    border-style:groove;
+    border-width: 3px;
+
+}
+
+#player2_name_input{
+    height:40px;
+    width:250px;
+    border-color: black;
+    border-style:groove;
+    border-width: 3px;
+}
+
+label{
+    margin-left: 200px;
+}
+
+#loginH{
+    font-size: 30px;
+    margin: 100;
+}
+
+#loginB{
+    margin-left: 680px;
+    border-radius: 60px;
+    border-color: white;
+    border-style:double;
+    border-width: 10px;
+    width:150px;
+    height:70px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+
+
+
+
